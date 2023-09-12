@@ -4,7 +4,7 @@ import s from './contacts.module.sass';
 export const Contacts: FC = (): ReactElement => {
     return (
         <div className={s.root}>
-      Contacts
+            Contacts
         </div>
     );
 };

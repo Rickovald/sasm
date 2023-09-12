@@ -2,12 +2,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 // COMPONENT IMPORTS
-import { Main } from 'pages/Main/Main';
-import { Footer } from 'components/Footer/Footer';
-import { Navigation } from 'components/Navigation/Navigation';
-import { Error404 } from './pages/Error404/Error404';
-import { About } from './pages/About/About';
-import { Contacts } from './pages/Contacts/Contacts';
+import { Footer } from 'widgets/Footer';
+import { Navigation } from 'widgets/Navigation';
+import { Main } from 'pages/Main';
+import { Error404 } from 'pages/Error404/Error404';
+import { About } from 'pages/About/';
+import { Contacts } from 'pages/Contacts';
 
 const App = () => {
     return (

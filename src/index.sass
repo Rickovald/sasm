@@ -1,15 +1,5 @@
-@use "./presets/kit" as *
-
-*
-  margin: 0
-  padding: 0
-  -webkit-box-sizing: border-box
-  box-sizing: border-box
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  @include Font
-  scrollbar-width: thin
-  scrollbar-color: $BackgroundInput #00000050
+@use "src/shared/reset" as *
+@use "src/shared/mixins" as *
 
 img
   pointer-events: none
@@ -30,7 +20,7 @@ input, button
 ::-webkit-scrollbar
   position: absolute
   width: thin
-  background-color: $BackgroundInput
+  background-color: $BackgroundLight
 
 ::-webkit-scrollbar-thumb
   background-color: #00000050

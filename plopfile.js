@@ -42,10 +42,10 @@ module.exports = function (plop) {
                 pattern: /\{\/\* COMPONENT LINKS \*\/\}$/gm,
                 template: '                    <NavLink className={s.link} to=\'{{snakeCase title}}\'>{{camelCase title}}</NavLink>'
             }
-        ]
+        ]   
     });
-    plop.setGenerator('component', {
-        description: 'Generate new tsx react FC component',
+    plop.setGenerator('Feature', {
+        description: 'Generate new tsx react FC feature',
         prompts: [
             {
                 type: 'input',
@@ -56,17 +56,44 @@ module.exports = function (plop) {
         actions: [
             {
                 type: 'add',
-                path: 'src/components/{{properCase title}}/{{properCase title}}.tsx',
+                path: 'src/features/{{properCase title}}/{{properCase title}}.tsx',
                 templateFile: '_templates/functionalComponent.hbs'
             },
             {
                 type: 'add',
-                path: 'src/components/{{properCase title}}/index.ts',
+                path: 'src/features/{{properCase title}}/index.ts',
                 templateFile: '_templates/indexComponent.hbs'
             },
             {
                 type: 'add',
-                path: 'src/components/{{properCase title}}/{{camelCase title}}.module.sass',
+                path: 'src/features/{{properCase title}}/{{camelCase title}}.module.sass',
+                templateFile: '_templates/styleSassComponent.hbs'
+            }
+        ]
+    });
+    plop.setGenerator('Widget', {
+        description: 'Generate new tsx react FC widget',
+        prompts: [
+            {
+                type: 'input',
+                name: 'title',
+                message: 'Name of FC?'
+            }
+        ],
+        actions: [
+            {
+                type: 'add',
+                path: 'src/widgets/{{properCase title}}/{{properCase title}}.tsx',
+                templateFile: '_templates/functionalComponent.hbs'
+            },
+            {
+                type: 'add',
+                path: 'src/widgets/{{properCase title}}/index.ts',
+                templateFile: '_templates/indexComponent.hbs'
+            },
+            {
+                type: 'add',
+                path: 'src/widgets/{{properCase title}}/{{camelCase title}}.module.sass',
                 templateFile: '_templates/styleSassComponent.hbs'
             }
         ]

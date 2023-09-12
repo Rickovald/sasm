@@ -1,21 +1,26 @@
-@use "kit.module" as *
-@use "fonts" as *
+@use "mixins" as *
+@use "fonts/fonts" as *
 
 *
-	margin: 0
-	padding: 0
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	@include Font
+	scrollbar-width: thin
+	scrollbar-color: $BackgroundLight #00000050
 
 html
 	line-height: 1
 	-webkit-text-size-adjust: 100%
 
 body
-	background-color: $Background
+	// background-color: $BackgroundLight
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	font-family: "Jura", sans-serif
 	margin: 0
-	color: $CommonText
+	color: $DarkTextColor
 
 main
 	display: block
@@ -93,7 +98,6 @@ button, [type="button"], [type="reset"], [type="submit"]
 	&:-moz-focusring
 		outline: 1px dotted ButtonText
 
-
 fieldset
 	padding: 0.35em 0.75em 0.625em
 
@@ -124,7 +128,6 @@ textarea
 
 	&::-webkit-search-decoration
 		-webkit-appearance: none
-
 
 ::-webkit-file-upload-button
 	-webkit-appearance: button
