@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
+
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import s from './app.module.sass';
 
 // COMPONENT IMPORTS
@@ -14,11 +16,14 @@ import { Contacts } from 'pages/Contacts';
 const App = () => {
     return (
         <div className='App'>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>НИИ ГХС</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+            {/* Тут в шлеме ошибка UNSAFE_componentWillMount  */}
+            <HelmetProvider>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>НИИ ГХС</title>
+                    <link rel="canonical" href="http://mysite.com/example" />
+                </Helmet>
+            </HelmetProvider>
             <Router>
                 <Navigation />
                 <div className={s.content__wrapper}>

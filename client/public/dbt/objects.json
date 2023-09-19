@@ -1,5 +1,5 @@
-{
-    "s023": {
+[
+    {
         "id": 0,
         "rate": 0,
         "ghs": 23,
@@ -8,7 +8,7 @@
         "published": "",
         "redacted": ""
     },
-    "s050": {
+    {
         "id": 1,
         "rate": 0,
         "ghs": 50,
@@ -17,7 +17,7 @@
         "published": "",
         "redacted": ""
     },
-    "s071": {
+    {
         "id": 2,
         "rate": 0,
         "ghs": 71,
@@ -26,7 +26,7 @@
         "published": "",
         "redacted": ""
     },
-    "s105": {
+    {
         "id": 3,
         "rate": 3,
         "ghs": 105,
@@ -35,7 +35,7 @@
         "published": "",
         "redacted": ""
     },
-    "s179": {
+    {
         "id": 4,
         "rate": 0,
         "ghs": 179,
@@ -44,7 +44,7 @@
         "published": "",
         "redacted": ""
     },
-    "s235": {
+    {
         "id": 5,
         "rate": 0,
         "ghs": 235,
@@ -53,7 +53,7 @@
         "published": "",
         "redacted": ""
     },
-    "s240": {
+    {
         "id": 6,
         "rate": 0,
         "ghs": 240,
@@ -62,7 +62,7 @@
         "published": "",
         "redacted": ""
     },
-    "s320": {
+    {
         "id": 7,
         "rate": 0,
         "ghs": 320,
@@ -71,7 +71,7 @@
         "published": "",
         "redacted": ""
     },
-    "s378": {
+    {
         "id": 8,
         "rate": 0,
         "ghs": 378,
@@ -80,7 +80,7 @@
         "published": "",
         "redacted": ""
     },
-    "s430": {
+    {
         "id": 9,
         "rate": 0,
         "ghs": 430,
@@ -89,7 +89,7 @@
         "published": "",
         "redacted": ""
     },
-    "s487": {
+    {
         "id": 10,
         "rate": 0,
         "ghs": 487,
@@ -98,7 +98,7 @@
         "published": "",
         "redacted": ""
     },
-    "s552": {
+    {
         "id": 11,
         "rate": 0,
         "ghs": 552,
@@ -107,7 +107,7 @@
         "published": "",
         "redacted": ""
     },
-    "s621": {
+    {
         "id": 12,
         "rate": 0,
         "ghs": 621,
@@ -116,7 +116,7 @@
         "published": "",
         "redacted": ""
     },
-    "s649": {
+    {
         "id": 13,
         "rate": 0,
         "ghs": 649,
@@ -125,7 +125,7 @@
         "published": "",
         "redacted": ""
     },
-    "s650": {
+    {
         "id": 14,
         "rate": 0,
         "ghs": 650,
@@ -134,7 +134,7 @@
         "published": "",
         "redacted": ""
     },
-    "s699": {
+    {
         "id": 15,
         "rate": 0,
         "ghs": 699,
@@ -143,7 +143,7 @@
         "published": "",
         "redacted": ""
     },
-    "s700": {
+    {
         "id": 16,
         "rate": 0,
         "ghs": 700,
@@ -152,7 +152,7 @@
         "published": "",
         "redacted": ""
     },
-    "s755": {
+    {
         "id": 17,
         "rate": 0,
         "ghs": 755,
@@ -161,7 +161,7 @@
         "published": "",
         "redacted": ""
     },
-    "s789": {
+    {
         "id": 18,
         "rate": 0,
         "ghs": 789,
@@ -170,7 +170,7 @@
         "published": "",
         "redacted": ""
     },
-    "s823": {
+    {
         "id": 19,
         "rate": 5,
         "ghs": 823,
@@ -179,7 +179,7 @@
         "published": "",
         "redacted": ""
     },
-    "s831": {
+    {
         "id": 20,
         "rate": 0,
         "ghs": 831,
@@ -188,7 +188,7 @@
         "published": "",
         "redacted": ""
     },
-    "s880": {
+    {
         "id": 21,
         "rate": 0,
         "ghs": 880,
@@ -197,7 +197,7 @@
         "published": "",
         "redacted": ""
     },
-    "s893": {
+    {
         "id": 22,
         "rate": 0,
         "ghs": 893,
@@ -206,7 +206,7 @@
         "published": "",
         "redacted": ""
     },
-    "s940": {
+    {
         "id": 23,
         "rate": 0,
         "ghs": 940,
@@ -215,7 +215,7 @@
         "published": "",
         "redacted": ""
     },
-    "s1001": {
+    {
         "id": 24,
         "rate": 0,
         "ghs": 1001,
@@ -224,7 +224,7 @@
         "published": "",
         "redacted": ""
     },
-    "s1870": {
+    {
         "id": 25,
         "rate": 0,
         "ghs": 1870,
@@ -233,4 +233,4 @@
         "published": "",
         "redacted": ""
     }
-}
+]
