@@ -1,4 +1,20 @@
 @use "src/shared/mixins" as *
 
 .root
-	@include PageWrapper
+	@include TabPadding
+	// padding: 0 0 0 5vw
+
+.main__header, .main__header_big
+	@include H2Bold
+	text-align: center
+	text-transform: uppercase
+	color: $MainAccent
+
+.main__header_big
+	@include H4Bold
+	margin: 20px 0
+
+.main__hr
+	margin: 2em 0 3em
+	border-top-width: 3px
+	border-color: $Background

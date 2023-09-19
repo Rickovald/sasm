@@ -1,0 +1,236 @@
+{
+    "s023": {
+        "id": 0,
+        "rate": 0,
+        "ghs": 23,
+        "name": "СКАТЕРТЬ-САМОСБОРКА",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s050": {
+        "id": 1,
+        "rate": 0,
+        "ghs": 50,
+        "name": "БЕСКОНЕЧНЫЙ ОКТЯБРЕНОК",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s071": {
+        "id": 2,
+        "rate": 0,
+        "ghs": 71,
+        "name": "ФОТОГРАФИЯ ТАНЦЕВАЛОВА СДЕЛАННАЯ НЕ ПО СИСТЕМЕ ТАНЦЕВАЛОВА",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s105": {
+        "id": 3,
+        "rate": 3,
+        "ghs": 105,
+        "name": "БЮСТ СКАБАБОВА",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s179": {
+        "id": 4,
+        "rate": 0,
+        "ghs": 179,
+        "name": "МЯГКИЙ СТУЛ, У КОТОРОГО ВСЕГДА МЯГКИЙ СТУЛ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s235": {
+        "id": 5,
+        "rate": 0,
+        "ghs": 235,
+        "name": "ПАРТБИЛЕТ В КИНО",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s240": {
+        "id": 6,
+        "rate": 0,
+        "ghs": 240,
+        "name": "ШАРОБЛОКУНЬ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s320": {
+        "id": 7,
+        "rate": 0,
+        "ghs": 320,
+        "name": "НЕБОЛЬШАЯ, НО ВЕСЬМА ИГРИВАЯ СЫЗРАНЬ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s378": {
+        "id": 8,
+        "rate": 0,
+        "ghs": 378,
+        "name": "КРАН-КАПКАН",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s430": {
+        "id": 9,
+        "rate": 0,
+        "ghs": 430,
+        "name": "НЕВКУСНЫЙ БЕТОН",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s487": {
+        "id": 10,
+        "rate": 0,
+        "ghs": 487,
+        "name": "ГЕНСЕКТОР С ПОДВОХОМ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s552": {
+        "id": 11,
+        "rate": 0,
+        "ghs": 552,
+        "name": "ПСЕВДОШОКОЛАДНОЕ ЯЙЦО «ДЕТСКАЯ НЕОЖИДАННОСТЬ»",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s621": {
+        "id": 12,
+        "rate": 0,
+        "ghs": 621,
+        "name": "УСИЛИТЕЛЬ ВКУСА И САМОСБОРА",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s649": {
+        "id": 13,
+        "rate": 0,
+        "ghs": 649,
+        "name": "ДОКТОР НЕБОЛИТ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s650": {
+        "id": 14,
+        "rate": 0,
+        "ghs": 650,
+        "name": "ПОКРАШЕННЫЙ ЧЕРНОЙ КРАСКОЙ ПЛАФОН \"ЛУНА-9\"",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s699": {
+        "id": 15,
+        "rate": 0,
+        "ghs": 699,
+        "name": "СЫРОЕ МЯСО ПАХНУЩЕЕ САМОСБОРОМ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s700": {
+        "id": 16,
+        "rate": 0,
+        "ghs": 700,
+        "name": "СЫНА-КОРЗИНА",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s755": {
+        "id": 17,
+        "rate": 0,
+        "ghs": 755,
+        "name": "НЕПЬЮЩИЙ САНТЕХНИК НИКОДИМ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s789": {
+        "id": 18,
+        "rate": 0,
+        "ghs": 789,
+        "name": "САМОСБОРНИК АНЕКДОТОВ О ТОВАРИЩЕ САМОСБОРОВЕ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s823": {
+        "id": 19,
+        "rate": 5,
+        "ghs": 823,
+        "name": "ВЕДРО НЕПРЕДСКАЗУЕМОЙ ВОДЫ, С КОТОРОЙ БЫ ТОЛЬКО НЕ СДЕЛАТЬ ХУЖЕ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s831": {
+        "id": 20,
+        "rate": 0,
+        "ghs": 831,
+        "name": "ВОРОВАТЫЙ ЗАВХОЗ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s880": {
+        "id": 21,
+        "rate": 0,
+        "ghs": 880,
+        "name": "КОНЦЕНТРАЦИОННЫЙ КОНЦЕНТРАТ ИЗ СЕКТОРА Г8РМАН11",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s893": {
+        "id": 22,
+        "rate": 0,
+        "ghs": 893,
+        "name": "ДЕД-ДОЕД",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s940": {
+        "id": 23,
+        "rate": 0,
+        "ghs": 940,
+        "name": "БЕСПОЛЕЗНЫЙ ЖЕЛЕМЫШ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s1001": {
+        "id": 24,
+        "rate": 0,
+        "ghs": 1001,
+        "name": "ХИЩНЫЕ ТЕНИ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    },
+    "s1870": {
+        "id": 25,
+        "rate": 0,
+        "ghs": 1870,
+        "name": "ХИЩНЫЕ ТЕНИ",
+        "mark": "<p>loh</p>",
+        "published": "",
+        "redacted": ""
+    }
+}

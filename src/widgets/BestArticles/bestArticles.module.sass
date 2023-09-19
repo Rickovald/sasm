@@ -1,0 +1,19 @@
+@use "src/shared/mixins" as *
+
+.bestArticles
+    position: relative
+    border: 2px solid $BackgroundDemiLight
+    border-radius: 2px
+    width: 100%
+    padding: 50px 20px 20px 20px
+    margin-bottom: 30px
+    @include FlexWrapper
+    justify-content: flex-start
+    height: 200px
+    box-shadow: 0 2px 3px $BackgroundDemiLight
+
+.separate
+    width: 1px
+    background: $BackgroundDemiLight
+    height: 100%
+    margin: 0 50px

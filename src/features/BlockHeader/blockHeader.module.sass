@@ -1,0 +1,26 @@
+@use "src/shared/mixins" as *
+
+.blockHeader
+    border-bottom: 2px solid $BackgroundCard
+    width: 250px
+    height: 30px
+    background: $BackgroundDemiLight
+    padding: 4px 24px
+    text-transform: uppercase
+    position: absolute
+    @include FlexWrapper
+    top: 0
+    left: 0
+    &::after
+        background: $BackgroundCard
+        clip-path: polygon(0 calc(100% - 2px), calc(100% - 2.5px) 0, 100% 0, 1px 100%, 0 100%)
+    &::before
+        background: $BackgroundDemiLight
+        clip-path: polygon(0 0, calc(100% - 1px) 0, 0 calc(100% - 1px))
+    &::before, &::after
+        position: absolute
+        content: ''
+        left: 100%
+        top: 0
+        bottom: -2px
+        width: 40px

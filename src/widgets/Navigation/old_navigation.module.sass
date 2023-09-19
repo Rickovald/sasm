@@ -5,18 +5,13 @@
 	position: relative
 	height: fit-content
 	// background: $BackgroundElements
-	background-image: $DarkGradient, url('../../shared/assets/backs/back.jpg')
 
 .wrapper
-	max-width: 1500px
-	margin: 0 auto
+	width: 100%
 	@include PagePadding
 	padding-top: 2vh
-	padding-bottom: 2vh
+	background-image: $DarkGradient, url('../../shared/assets/backs/back.jpg')
 	color: $LightTextColor
-	display: flex
-	align-items: center
-	justify-content: space-between
 	.profile
 		display: flex
 		justify-content: flex-end
@@ -29,6 +24,8 @@
 				color: $BrightAccent
 
 	.upper
+		margin: 0 auto
+		max-width: 1500px
 		width: 100%
 		display: flex
 		justify-content: space-between
@@ -37,29 +34,30 @@
 		display: flex
 		cursor: pointer
 	.logo
-		max-width: 90px
+		max-width: 60px
 		margin-right: 10px
 .header
 	color: $LightTextColor
-	@include H4Bold
-	height: fit-content
-	margin: auto 0
 
 .links__wrapper
-	display: flex
-	flex-direction: column
-	justify-content: space-between
-	align-items: flex-end
+	background-color: #000
+	@include PagePadding
+	// gap: 20px
 .links
+	max-width: 1500px
+	width: 100%
+	margin: auto
 	display: flex
+	// gap: 20px
 
 .link
 	color: $LightTextColor
-	padding: 10px 0 10px 40px
-	width: max-content
+	height: 50px
+	padding: 0 0 0 40px
 	transition: $FastTransition
 	@include ButtonFont($font-size: 14px, $font-weight: normal, $text-transform: inherit)
 	&:first-child
 		margin-left: auto
 	&:hover
 		color: $BrightAccent
+		// background: $BackgroundCard

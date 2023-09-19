@@ -7,8 +7,9 @@ interface ISearch {
 
 export const Search: FC<ISearch> = (): ReactElement => {
     return (
-        <div className = { s.search }>
-            search
+        <div className={s.search}>
+            <input className={s.input} placeholder='поиск по сайту' />
+            <button type="submit"></button>
         </div>
     );
 };

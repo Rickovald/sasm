@@ -1,4 +1,40 @@
 @use "src/shared/mixins" as *
+@use "src/shared/functions" as *
 
 .search
     display: block
+    margin: 10px 0
+    position: relative
+    width: fit-content
+
+.input
+    padding: 0px 5px
+    width: 250px
+    height: 40px
+    padding-left: 15px
+    border-radius: 10px
+    border: 2px solid $MainAccentOpacity
+    background: $AdditionalUnAccent
+    color: white
+    outline: none
+    position: relative
+    transition: .3s linear
+    &:focus
+        border: 2px solid $SecondAccent
+        width: 300px
+
+button
+    cursor: pointer
+    width: 40px
+    height: 40px
+    background: none
+    border: none
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    &::before
+        font-size: toRem(22)
+        content: "\e986"
+        font-family: icomoon
+        color: #324b4e

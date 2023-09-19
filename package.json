@@ -1,5 +1,5 @@
 {
-  "name": "your-app-name",
+  "name": "gigahrushsohran",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "plop": "plop",
-    "plop:component": "plop component",
+    "plop:widget": "plop widget",
+    "plop:feature": "plop feature",
     "plop:page": "plop page"
   },
   "eslintConfig": {

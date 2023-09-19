@@ -7,6 +7,7 @@
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	@include Font
+	margin: 0
 	scrollbar-width: thin
 	scrollbar-color: $BackgroundLight #00000050
 
@@ -19,20 +20,17 @@ body
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	font-family: "Jura", sans-serif
-	margin: 0
 	color: $DarkTextColor
 
 main
 	display: block
 
-h1
-	font-size: 2em
-	margin: 0.67em 0
-
 hr
 	box-sizing: content-box
-	height: 0
 	overflow: visible
+	border-top: 0px #272727
+	border-style: solid
+	height: 0px
 
 pre
 	font-family: monospace, monospace
@@ -144,6 +142,3 @@ template
 
 [hidden]
 	display: none
-
-*
-	box-sizing: border-box
