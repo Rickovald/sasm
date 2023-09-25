@@ -6,7 +6,6 @@ import { observer } from 'mobx-react-lite';
 
 export const Main: FC = observer((): ReactElement => {
     // const data = ObjectsStore.getObjects();
-    // console.log(data);
     return (
         <div className={s.root}>
             <h3 className={s.main__header}>ВНИМАНИЕ: ПРЕДСТАВЛЕННЫЕ ДАЛЕЕ МАТЕРИАЛЫ</h3>

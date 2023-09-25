@@ -1,12 +1,11 @@
 import ObjectsService from 'entities/services/ObjectsService';
-import { makeAutoObservable } from 'mobx';
-// import { ObjectsService } from "entities/services/ObjectsService"
+import { makeAutoObservable, toJS } from 'mobx';
 import { LOADING_STATUS, COMPLETE_STATUS, ERROR_STATUS } from 'shared/consts';
 import { IObject } from 'shared/interfaces/object';
 
 class ObjectsStore {
-    objects: IObject[] = [];
     state = LOADING_STATUS;
+    objects: IObject[] = [];
 
     constructor () {
         makeAutoObservable(this);
@@ -24,39 +23,22 @@ class ObjectsStore {
         this.objects = objects;
     };
 
-    getObjects = () => {
-        return this.objects;
+    getObjects = ():IObject[] => {
+        // ! УДАЛИТЬ ПЕРЕД БИЛДОМ TOJS
+        return toJS(this.objects);
     };
 
-    putObject = async (
-        id: number,
-        rate: number,
-        ghs: number,
-        name: string,
-        mark: string,
-        published: string,
-        redacted: string
-    ) => {
-        await ObjectsService.update(
-            id,
-            rate,
-            ghs,
-            name,
-            mark,
-            published,
-            redacted
-        );
+    getObjectsById = (id: number):IObject => {
+        // ! УДАЛИТЬ ПЕРЕД БИЛДОМ TOJS
+        return toJS(this.objects[id]);
     };
 
-    createObject = async (
-        rate: string,
-        ghs: number,
-        name: number,
-        mark: string,
-        published: string,
-        redacted: string
-    ) => {
-        await ObjectsService.post(rate, ghs, name, mark, published, redacted);
+    putObject = async (newObject: IObject) => {
+        await ObjectsService.update(newObject);
+    };
+
+    createObject = async (newObject: IObject) => {
+        await ObjectsService.post(newObject);
     };
 
     deleteObject = async (id: number) => {

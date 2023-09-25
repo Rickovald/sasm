@@ -29,6 +29,7 @@ export const Navigation: FC = (): ReactElement => {
                         <NavLink className={s.link} to='/contacts'>Архивы</NavLink>
                         <NavLink className={s.link} to='/contacts'>Профсоюз</NavLink>
                         {/* COMPONENT LINKS */}
+                        <NavLink className={s.link} to='article'>article</NavLink>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,10 @@
     "rules": {
         "indent": [
             "error",
-            4
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         "eol-last": [
             "error",
@@ -34,6 +37,9 @@
         "semi": [
             "error",
             "always"
+        ],
+        "space-before-function-paren": [
+            "off"
         ]
     }
 }
